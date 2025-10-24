@@ -30,7 +30,7 @@ What does trimming mean you might ask ? Let me explain.
 
 Trimming means removing the characters specified in the `set` string from the start AND the end of the string `s1`, without removing the characters from the `set` that are in the middle of `s1`.
 
-If we have the string `ababaaaMy name is Simonbbaaabbad` and our set is `ab`, we'll get this result out of the `ft_strtrim()` function : `My name is Simon`.
+If we have the string `ababaaaMy name is Simonbbaaabbab` and our set is `ab`, we'll get this result out of the `ft_strtrim()` function : `My name is Simon`.
 
 We removed every `a` and `b` from the start and the end of `s1`, without touching at the a in the middle of `s1`.
 
